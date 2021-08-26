@@ -1,6 +1,6 @@
 :root {
-  --vermelho: #e50914;
-  --preta: #141414;
+  --vermelho: #fe0016;
+  --branco: white;
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 /* elementos base   */
 body {
-  background: var(--preta);
+  background: var(--vermelho);
   font-family: Arial, Helvetica, sans-serif "Times New Roman", Times, serif;
   color: white;
 }
@@ -24,13 +24,13 @@ header .container {
 
 header .logo {
   margin-left: 5px;
-  color: var(--vermelho);
+  color: var(--branco);
   font-family: arial black;
   font-size: 40px;
 }
 header nav a {
   text-decoration: none;
-  color: #aaa;
+  color: var(--branco);
   margin-right: 10px;
 }
 header nav a:hover {
@@ -41,7 +41,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 13px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("../img/capa1.jpg");
+    url("../img/enrique-vidal-flores-zsXvRKtsf6Q-unsplash.jpg");
   height: 400px;
   background-size: cover;
 
